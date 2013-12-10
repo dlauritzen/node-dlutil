@@ -4,6 +4,28 @@ Node.js utility functions.
 
 Most functions have synchronous and asynchronous versions. All asynchronous versions of methods have _Async_ appended to the function name.
 
+Run tests using `npm test`.
+
+## rmtree
+
+Remove a file or a directory and its contents. Absolute paths are recommended.
+
+``` javascript
+dlutil.rmtree(directory);
+```
+
+``` javascript
+dlutil.rmtreeAsync(directory, callback);
+```
+
+## copyFile
+
+Copy a file. This is a convenience method.
+
+``` javascript
+dlutil.copyFileAsync(src, dest, callback);
+```
+
 ## partition
 
 Partition a list according to keys returned from an iterator function.

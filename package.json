@@ -1,18 +1,23 @@
 {
-	"name": "dlutil",
-	"author": "Dallin Lauritzen <dallin@dallinlauritzen.com>",
-	"version": "0.0.1",
-	"description": "Various utility functions not found in Underscore.js",
-	"main": "./lib/dlutil.js",
-	"scripts": {
-		"test": "node test"
-	},
-	"license": "MIT",
-	"dependencies": {
-		"underscore": "~1.5.2",
-		"async": "~0.2.9"
-	},
-	"devDependencies": {
-		"nodeunit": "~0.8.2"
-	}
+  "name": "dlutil",
+  "author": "Dallin Lauritzen <dallin@dallinlauritzen.com>",
+  "version": "0.0.1",
+  "description": "Various utility functions not found in Underscore.js",
+  "main": "./lib/dlutil.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlauritzen/node-dlutil.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.2",
+    "fstream": "~0.1.25"
+  }
 }
