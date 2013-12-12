@@ -6,7 +6,7 @@ Most functions have synchronous and asynchronous versions. All asynchronous vers
 
 Run tests using `npm test`.
 
-## rmtree
+## rmtree (0.0.2)
 
 Remove a file or a directory and its contents. Absolute paths are recommended.
 
@@ -18,7 +18,7 @@ dlutil.rmtree(directory);
 dlutil.rmtreeAsync(directory, callback);
 ```
 
-## copyFile
+## copyFile (0.0.2)
 
 Copy a file. This is a convenience method.
 
@@ -26,7 +26,25 @@ Copy a file. This is a convenience method.
 dlutil.copyFileAsync(src, dest, callback);
 ```
 
-## partition
+## setPath (0.0.3)
+
+Prepend a directory to a list of file names. This method is synchronous.
+
+``` javascript
+dlutil.setPath(filenames, dir);
+```
+
+## filterByExt (0.0.3)
+
+Filter a list of filenames by extension. The `ext` parameter should include the `.`. This method is synchronous.
+
+``` javascript
+dlutil.filterByExt(filenames, ext);
+
+// e.g. dlutil.filterByExt(l, '.png')
+```
+
+## partition (0.0.1)
 
 Partition a list according to keys returned from an iterator function.
 

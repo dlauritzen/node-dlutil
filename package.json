@@ -1,7 +1,7 @@
 {
   "name": "dlutil",
   "author": "Dallin Lauritzen <dallin@dallinlauritzen.com>",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Various utility functions not found in Underscore.js",
   "main": "./lib/dlutil.js",
   "scripts": {
